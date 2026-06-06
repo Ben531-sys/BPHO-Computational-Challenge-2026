@@ -382,6 +382,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "celluloid" },
+    { name = "ipykernel" },
     { name = "ipywidgets" },
     { name = "matplotlib" },
     { name = "numpy" },
@@ -396,6 +397,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "celluloid", specifier = ">=0.2.0" },
+    { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.1" },

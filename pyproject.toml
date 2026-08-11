@@ -3,7 +3,7 @@ name = "jupyter-template"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "celluloid>=0.2.0",
     "ipykernel>=7.1.0",
@@ -14,6 +14,11 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "flake8>=7.3.0",
     "ipykernel>=7.1.0",
+    "mypy>=1.20.2",
+    "nbconvert>=7.17.1",
+    "nbqa>=1.9.1",
+    "pyright>=1.1.409",
     "uv>=0.9.18",
 ]

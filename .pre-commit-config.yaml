@@ -4,3 +4,14 @@ repos:
     rev: 0.9.18
     hooks:
       - id: uv-lock
+  - repo: https://github.com/psf/black
+    rev: 26.3.1
+    hooks:
+      - id: black-jupyter
+        args: [--target-version, py314]
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.9.1
+    hooks:
+      - id: nbqa-isort
+        additional_dependencies: [isort==8.0.1]
+

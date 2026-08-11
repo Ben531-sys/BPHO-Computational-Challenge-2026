@@ -11,3 +11,10 @@ wheels/
 
 # Mac specific files
 .DS_Store
+
+# Generated type stubs
+typings/
+
+# Tool caches
+.mypy_cache/
+.claude/

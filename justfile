@@ -5,6 +5,9 @@ setup:
     pre-commit install
     uv tool install nb-clean
 
+notebook:
+    uv run jupyter lab
+
 run:
     uv run jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
 

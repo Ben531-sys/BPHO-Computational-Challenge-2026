@@ -4,6 +4,7 @@ setup:
     uv tool install pre-commit --with pre-commit-uv
     pre-commit install
     uv tool install nb-clean
+    -xattr -w com.apple.fileprovider.ignore#P 1 .venv
 
 notebook:
     uv run jupyter lab

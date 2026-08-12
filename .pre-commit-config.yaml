@@ -8,6 +8,7 @@ repos:
     rev: 26.3.1
     hooks:
       - id: black-jupyter
+        language_version: python3.14
         args: [--target-version, py314]
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
